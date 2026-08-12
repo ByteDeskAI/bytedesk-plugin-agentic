@@ -1,0 +1,19 @@
+{
+  "id": "agentic",
+  "version": "0.1.0",
+  "minCoreVersion": "0.9.0",
+  "pricing": { "model": "free" },
+  "publisher": { "id": "bytedesk", "name": "ByteDesk" },
+  "nav": [
+    { "id": "agentic", "label": "Agentic", "icon": "◆", "href": "/p/agentic/ui", "order": 80 }
+  ],
+  "panels": [
+    { "id": "agentic", "kind": "agentic", "url": "/p/agentic/ui" }
+  ],
+  "launchers": [],
+  "scopes": ["plugin:agentic"],
+  "routes": ["/p/agentic/"],
+  "spawn": true,
+  "binary": "agentic",
+  "socket": "plugin.sock"
+}
